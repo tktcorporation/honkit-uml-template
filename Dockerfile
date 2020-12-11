@@ -10,4 +10,4 @@ RUN yarn
 
 COPY . .
 
-CMD [ "npx honkit build" ]
+CMD [ "/bin/bash", "-c", "npx honkit build" ]
