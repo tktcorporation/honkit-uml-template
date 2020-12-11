@@ -1,5 +1,14 @@
 {
   "plugins": [
-    "uml"
-  ]
+    "hide-published-with",
+    "uml",
+    "include-csv"
+  ],
+  "pluginsConfig": {
+    "uml": {
+      "charset": "UTF-8",
+      "format": "png"
+    }
+  },
+  "language": "ja"
 }
