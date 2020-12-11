@@ -1,6 +1,6 @@
 # honkit
 ## assets
-assets/images/
+# assets/images/ # これをignore するとビルド時にレンダリングされなくなる
 
 # Logs
 logs
